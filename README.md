@@ -43,8 +43,8 @@ desc:These are cats, use them to buy stuff!!
 class:roundedCorners
 
 Buildings
-*cheesecakeFactory
-  name:Cheesecake factory
-  desc:Combines the magic of cheese with the wonders of cake to produce 3 cheesecakes per second.
+*boxesBuilding
+  name:Box|Boxes
+  desc:<q>Cool ass boxes ya got there buddy!</q>
   on tick:yield 3 cats
   cost:100 cats
