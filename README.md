@@ -54,3 +54,9 @@ name:Tower|Towers
 desc:<i>"I dunno why, I dunno how, put scratching this post feels so satisfying!"</i>
 on tick:yield 5 cats
 cost:500 cats
+
+*parasitesBuilding
+name:Parasite|Parasites
+desc:<i>"Cat 1: What the fuck did you eat bro?</>Cat 2: I don't know man, tasted kinda funny tho"</i>
+on tick:yield 10 cats
+cost:1000 cats
