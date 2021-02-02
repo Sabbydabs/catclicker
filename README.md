@@ -52,6 +52,6 @@ cost:100 cats
 
 *towersBuilding
 name:Tower|Towers
-desc:<i>"I dunno why, I dunno how, put scratching this post feels so satisfying!"</b>
+desc:<i>"I dunno why, I dunno how, put scratching this post feels so satisfying!"</i>
 on tick:yield 5 cats
 cost:500 cats
