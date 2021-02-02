@@ -57,6 +57,24 @@ cost:500 cats
 
 *parasitesBuilding
 name:Parasite|Parasites
-desc:<i>"Cat 1: What the fuck did you eat bro?</>Cat 2: I don't know man, tasted kinda funny tho"</i>
+desc:<i></>"Cat 1: What the fuck did you eat bro?</>Cat 2: I don't know man, tasted kinda funny tho"</i>
 on tick:yield 10 cats
 cost:1000 cats
+
+*humansBuilding
+name:Human|Humans
+desc:<i>"BREAKING NEWS: Cats have taken over the world government, we are all fucked..."</i>
+on tick:yield 15 cats
+cost:1500 cats
+
+*islandBuildings
+name:Island|Islands
+desc:<i>"We, will for the most part sail until we essentially find fairly more land for our feline specie"</i>
+on tick:yield 20 cats
+cost:2000 cats
+
+*portalBuildings
+name:Portal|Portals
+desc:<i>Fear, is what I felt after looking at the portal in front of me. Being a test subject after being enslaved traumatized me. I felt a trickle of sweat leave my body as I was pushed towards the portal" - Excerpt from the journal of subject #2184<i>
+on tick: yield 25 cats
+cost:2500 cats
