@@ -45,6 +45,6 @@ class:roundedCorners
 Buildings
 *boxesBuilding
   name:Box|Boxes
-  desc:<q>Cool ass boxes ya got there buddy!</q>
+  desc:<i>"Cool ass boxes ya got there"</i>
   on tick:yield 3 cats
   cost:100 cats
