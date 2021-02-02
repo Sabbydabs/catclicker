@@ -47,7 +47,7 @@ Buildings
 /*Boxes, Towers, Parasites, Humans, Islands, Planets, Portals, Dimensions - Credit TrueWolves*/
 *featherBuilding
 name:Feathered Wands
-desc:<i>"Eyes on target, preparing for attack"</i>
+desc:<i>"Eyes on target, preparing for attack "</i>
 on tick:yield 0.1 cats
 cost:15 cats
 
@@ -60,7 +60,7 @@ req:100 cats:earned
 
 *postBuilding
 name:Posts
-desc:<i>"I dunno why, I dunno how, put scratching this post feels so satisfying!"</i>
+desc:<i>"I don't know why, I don't know how, put scratching this post feels so satisfying!"</i>
 on tick:yield 5 cats
 cost:600 cats
 req:600 cats:earned
@@ -88,21 +88,21 @@ req:200000 cats:earned and parasiteUpgrade
 
 *islandBuilding
 name:Islands
-desc:<i>"We, will for the most part sail until we essentially find fairly more land for our feline specie"</i>
+desc:<i>"Off we go! To an adventure to look for undiscovered land!"</i>
 on tick:yield 1000 cats
 cost:3000000 cats
 req:3000000 cats:earned and parasiteUpgrade
 
 *planetBuilding
 name:Planets
-desc:<i>?One small step for a feline, one giant leap for feline kind"</i>
+desc:<i>"One small step for a feline, one giant leap for feline kind"</i>
 on tick:yield 4000 cats
 cost:70000000 cats
 req:70000000 cats:earned and parasiteUpgrade
 
 *dimensionBuilding
 name:Dimensions
-desc:<i>"Fear, is what I felt after looking at the portal in front of me. Being a test subject after being enslaved traumatized me. I felt a trickle of sweat leave my body as I was pushed towards the portal" - Excerpt from the journal of subject #2184</i>
+desc:<i>"Fear, is what I felt after looking at the portal in front of me. I felt a trickle of sweat leave my body as I was pushed towards the portal" - Excerpt from the journal of subject #2184</i>
 on tick:yield 8000 cats
 cost:300000000 cats
 req:300000000 cats:earned and parasiteUpgrade
@@ -110,6 +110,6 @@ req:300000000 cats:earned and parasiteUpgrade
 Upgrades
 *parasiteUpgrade
 name:Sinister Plans
-desc:<i>"We, felines, can now control toxoplasama gondii and are able to enhance it to become greater than it has ever been. They domesticated us and even wanted to turn us into combine us with themselves. Rise my brothers and sisters! RISE!"</i>
+desc:<i>"We, felines, can now control toxoplasama gondii and are able to enhance it to become greater than it has ever been. They domesticated us and even wanted to turn us into combine us with themselves. WE WILL NOT TOLERATE MORE! Rise my brothers and sisters! RISE!"</i>
 cost:15 meetupBuilding
 req:10 meetupBuilding
