@@ -35,6 +35,7 @@ icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/catButton
 desc:Click this button to produce more cats
 on click:yield 1 cats
 no text
+class:bigButton
 
 Resources
 *cats
