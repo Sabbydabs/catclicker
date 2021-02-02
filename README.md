@@ -43,8 +43,15 @@ desc:These are cats, use them to buy stuff!!
 class:roundedCorners
 
 Buildings
+/*Boxes, Towers, Parasites, Humans, Islands, Portals, Planets, Dimensions - Credit TrueWolves*/
 *boxesBuilding
 name:Box|Boxes
 desc:<i>"Cool ass boxes ya got there"</i>
 on tick:yield 1 cats
 cost:100 cats
+
+*towersBuilding
+name:Tower|Towers
+desc:<i>"I dunno why, I dunno how, put scratching this post feels so satisfying!"</b>
+on tick:yield 5 cats
+cost:500 cats
