@@ -67,14 +67,26 @@ desc:<i>"BREAKING NEWS: Cats have taken over the world government, we are all fu
 on tick:yield 15 cats
 cost:1500 cats
 
-*islandBuildings
+*islandBuilding
 name:Island|Islands
 desc:<i>"We, will for the most part sail until we essentially find fairly more land for our feline specie"</i>
 on tick:yield 20 cats
 cost:2000 cats
 
-*portalBuildings
+*portalBuilding
 name:Portal|Portals
 desc:<i>Fear, is what I felt after looking at the portal in front of me. Being a test subject after being enslaved traumatized me. I felt a trickle of sweat leave my body as I was pushed towards the portal" - Excerpt from the journal of subject #2184</i>
 on tick:yield 25 cats
 cost:2500 cats
+
+*planetBuilding
+name:Planet|Planets
+desc:<i>One small step for a feline, one giant leap for feline kind</i>
+on tick:yield 30 cats
+cost:3000 cats
+
+*dimensionBuilding
+name:Dimension|Dimensions
+desc:<i>We did it, I have entered dimension Dime-420</i>
+on tick:yield 35 cats
+cost:3500 cats
