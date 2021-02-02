@@ -74,7 +74,7 @@ req:4000 cats:earned
 name:Meetups
 desc:</><i>"Cat 1: Hey! Whats up bro?</>Cat 2: Nothing much bro, just hanging around</>Cat 1: Cool, well here is the plan..."</i>
 on tick:yield 90 cats
-coat:20000 cats
+cost:20000 cats
 req:20000 cats:earned 
 
 *humanBuilding
