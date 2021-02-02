@@ -46,5 +46,5 @@ Buildings
 *boxesBuilding
   name:Box|Boxes
   desc:<i>"Cool ass boxes ya got there"</i>
-  on tick:yield 3 cats
+  on tick:yield 1 cats
   cost:100 cats
