@@ -1,4 +1,3 @@
-# catclicker
 /*Purrfect Clicker*/
 Let's make a game!
 name:PurrfectClicker
