@@ -47,7 +47,7 @@ Buildings
 /*Boxes, Towers, Parasites, Humans, Islands, Planets, Portals, Dimensions - Credit TrueWolves*/
 *featherBuilding
 name:Feathered Wands
-desc:<i>"Eyes on target, preparing for attack "</i></><b>Stats and Stuff:</><.>Producing 0.1 cats per second</b>
+desc:<i>"Eyes on target, preparing for attack "</i></></><b>Stats and Stuff:</><.>Producing 0.1 cats per second</b>
 on tick:yield 0.1 cats
 cost:15 cats
 
