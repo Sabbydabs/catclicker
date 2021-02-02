@@ -31,6 +31,7 @@ Layout
 Buttons
 *catButton
 name:Cat Button
+icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/catButton
 desc:Click this button to produce more cats
 on click:yield 1 cats
 no text
@@ -82,28 +83,28 @@ name:Humans
 desc:<i>"BREAKING NEWS: Cats have taken over the world government, we are all fucked..."</i>
 on tick:yield 300 cats
 cost:200000 cats
-req:200000 cats:earned  and parasiteUpgrade
+req:200000 cats:earned and parasiteUpgrade
 
 *islandBuilding
 name:Islands
 desc:<i>"We, will for the most part sail until we essentially find fairly more land for our feline specie"</i>
 on tick:yield 1000 cats
 cost:3000000 cats
-req:3000000 cats:earned  and parasiteUpgrade
+req:3000000 cats:earned and parasiteUpgrade
 
 *planetBuilding
 name:Planets
 desc:<i>?One small step for a feline, one giant leap for feline kind"</i>
 on tick:yield 4000 cats
 cost:70000000 cats
-req:70000000 cats:earned  and parasiteUpgrade
+req:70000000 cats:earned and parasiteUpgrade
 
 *dimensionBuilding
 name:Dimensions
 desc:<i>"Fear, is what I felt after looking at the portal in front of me. Being a test subject after being enslaved traumatized me. I felt a trickle of sweat leave my body as I was pushed towards the portal" - Excerpt from the journal of subject #2184</i>
 on tick:yield 8000 cats
 cost:300000000 cats
-req:300000000 cats:earned  and parasiteUpgrade
+req:300000000 cats:earned and parasiteUpgrade
 
 Upgrades
 *parasiteUpgrade
