@@ -110,3 +110,4 @@ Upgrades
 name:Sinister Plans
 desc:<i>"We, felines, can now control toxoplasama gondii and are able to enhance it to become greater than it has ever been. They domesticated us and even wanted to turn us into combine us with themselves. Rise my brothers and sisters! RISE!"</i>
 cost:15 meetupBuilding
+req:10 meetupBuilding
