@@ -75,6 +75,6 @@ cost:2000 cats
 
 *portalBuildings
 name:Portal|Portals
-desc:<i>Fear, is what I felt after looking at the portal in front of me. Being a test subject after being enslaved traumatized me. I felt a trickle of sweat leave my body as I was pushed towards the portal" - Excerpt from the journal of subject #2184<i>
-on tick: yield 25 cats
+desc:<i>Fear, is what I felt after looking at the portal in front of me. Being a test subject after being enslaved traumatized me. I felt a trickle of sweat leave my body as I was pushed towards the portal" - Excerpt from the journal of subject #2184</i>
+on tick:yield 25 cats
 cost:2500 cats
