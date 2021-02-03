@@ -83,74 +83,82 @@ Buildings
 /*Boxes, Towers, Parasites, Humans, Islands, Planets, Portals, Dimensions - Credit TrueWolves*/
 *featherBuilding
 name:Feathered Wands
-desc:<i>"Eyes on target, preparing for attack "</i></></><b>Stats and Stuff:</><.>Earch wand is producing [cps1:ps] cats per second</b>
+desc:<i>"Eyes on target, preparing for attack "</i></></><b>Stats and Stuff:</><.>Earch wand is producing <#33ff00>[cps1:ps]</#> cats per second</b>
 on tick:yield 0.1 cats 
 on tick:yield 0.1 cps1
 cost:15 cats
 
 *boxesBuilding
 name:Boxes
-desc:<i>"Cool ass boxes ya got there"</i></></><b>Stats and Stuff:</><.>Earch box is producing [cps2:ps] cats per second</b>
+desc:<i>"Cool ass boxes ya got there"</i></></><b>Stats and Stuff:</><.>Earch box is producing <#33ff00>[cps2:ps]</#> cats per second</b>
 on tick:yield 0.5 cats 
 on tick:yield 0.5 cps2
 cost:100 cats
 req:100 cats:earned
+req:10 featherBuilding
 
 *postBuilding
 name:Posts
-desc:<i>"I don't know why, I don't know how, put scratching this post feels so satisfying!"</i></></><b>Stats and Stuff:</><.>Earch post is producing [cps3:ps] cats per second</b>
+desc:<i>"I don't know why, I don't know how, put scratching this post feels so satisfying!"</i></></><b>Stats and Stuff:</><.>Earch post is producing <#33ff00>[cps3:ps]</#> cats per second</b>
 on tick:yield 5 cats 
 on tick:yield 5 cps3
 cost:600 cats
 req:600 cats:earned
+req:10 boxesBuilding
 
 *treeBuilding
 name:Trees
-desc:<i>"I am on the top of the cat tree, therefore I am superior to you"</i></></><b>Stats and Stuff:</><.>Earch tree is producing [cps4:ps] cats per second</b>
+desc:<i>"I am on the top of the cat tree, therefore I am superior to you"</i></></><b>Stats and Stuff:</><.>Earch tree is producing <#33ff00>[cps4:ps]</#> cats per second</b>
 on tick:yield 12 cats 
 on tick:yield 12 cps4
 cost:4000 cats
 req:4000 cats:earned
+req:10 postBuilding
 
 *meetupBuilding
 name:Meetups
-desc:</><i>"Cat 1: Hey! Whats up bro?</>Cat 2: Nothing much bro, just hanging around</>Cat 1: Cool, well here is the plan..."</i></></><b>Stats and Stuff:</><.>Earch meetup is producing [cps5:ps] cats per second</b>
+desc:</><i>"Cat 1: Hey! Whats up bro?</>Cat 2: Nothing much bro, just hanging around</>Cat 1: Cool, well here is the plan..."</i></></><b>Stats and Stuff:</><.>Earch meetup is producing <#33ff00>[cps5:ps]</#> cats per second</b>
 on tick:yield 90 cats 
 on tick:yield 90 cps5
 cost:20000 cats
 req:20000 cats:earned 
+req:10 treeBuilding
 
 *humanBuilding
 name:Humans
-desc:<i>"BREAKING NEWS: Cats have taken over the world government, we are all fucked..."</i></></><b>Stats and Stuff:</><.>Earch human is producing [cps6:ps] cats per second</b>
+desc:<i>"BREAKING NEWS: Cats have taken over the world government, we are all fucked..."</i></></><b>Stats and Stuff:</><.>Earch human is producing <#33ff00>[cps6:ps]</#> cats per second</b>
 on tick:yield 300 cats 
 on tick:yield 300 cps6
 cost:200000 cats
 req:200000 cats:earned and parasiteUpgrade
+req:15 meetupBuilding 
 
 *islandBuilding
 name:Islands
-desc:<i>"Off we go! To an adventure to look for undiscovered land!"</i></></><b>Stats and Stuff:</><.>Earch island is producing [cps7:ps] cats per second</b>
+desc:<i>"Off we go! To an adventure to look for undiscovered land!"</i></></><b>Stats and Stuff:</><.>Earch island is producing <#33ff00>[cps7:ps]</#> cats per second</b>
 on tick:yield 1000 cats 
 on tick:yield 1000 cps7
 cost:3000000 cats
 req:3000000 cats:earned and parasiteUpgrade
+req:15 humanBuilding
 
 *planetBuilding
 name:Planets
-desc:<i>"One small step for a feline, one giant leap for feline kind"</i></></><b>Stats and Stuff:</><.>Earch planet is producing [cps8:ps] cats per second</b>
+desc:<i>"One small step for a feline, one giant leap for feline kind"</i></></><b>Stats and Stuff:</><.>Earch planet is producing <#33ff00>[cps8:ps]</#> cats per second</b>
 on tick:yield 4000 cats
 on tick:yield 4000 cps8
 cost:70000000 cats
 req:70000000 cats:earned and parasiteUpgrade
+req:15 islandBuilding
 
 *dimensionBuilding
 name:Dimensions
-desc:<i>"Fear, is what I felt after looking at the portal in front of me. I felt a trickle of sweat leave my body as I was pushed towards the portal" - Excerpt from the journal of subject #2184</i></></><b>Stats and Stuff:</><.>Earch dimension is producing [cps9:ps] cats per second</b>
+desc:<i>"Fear, is what I felt after looking at the portal in front of me. I felt a trickle of sweat leave my body as I was pushed towards the portal" - Excerpt from the journal of subject #2184</i></></><b>Stats and Stuff:</><.>Earch dimension is producing <#33ff00>[cps9:ps]</#> cats per second</b>
 on tick:yield 8000 cats 
 on tick:yield 8000 cps9
 cost:300000000 cats
 req:300000000 cats:earned and parasiteUpgrade
+req:15 planetBuilding
 
 Upgrades
 *parasiteUpgrade
