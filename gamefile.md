@@ -90,7 +90,7 @@ cost:15 cats
 
 *boxesBuilding
 name:Boxes
-desc:<i>"Cool ass boxes ya got there"</i></></><b>Stats and Stuff:</><.>Each box is producing <#33ff00>[cps2:ps]</#> cats per second</b></><.>Cats feel safe in enclosed spaces
+desc:<i>"Cool ass boxes ya got there"</i></></><b>Stats and Stuff:</><.>Each box is producing <#33ff00>[cps2:ps]</#> cats per second</><.>Cats feel safe in enclosed spaces</b>
 on tick:yield 0.5 cats 
 on tick:yield 0.5 cps2
 cost:100 cats
