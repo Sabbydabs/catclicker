@@ -7,7 +7,7 @@ desc:Desc here
 Settings
 stylesheet:https://pastebin.com/raw/TckyP96A		
 background:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/blackBG2		
-building cost increase:125%														
+building cost increase:120%														
 
 Layout
 *main
@@ -37,7 +37,7 @@ Layout
 
 Buttons
 *catButton
-name:Cat Button
+name:Big Cat
 icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/catButton
 desc:Click this button to produce more cats
 on click:yield 1 cats
@@ -187,7 +187,7 @@ class:roundedCorners
 
 *click1
 name:Basic Cat
-desc:<i>"A basic cat, not much"</i></></><b>Effects and Stuff:</><.>Mouse produces double</b>
+desc:<i>"A basic cat, not much"</i></></><b>Effects and Stuff:</><.>Doubles the yield of the big cat</b>
 icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/click1
 passive:multiply cats yield of catButton by 2
 cost:100 cats
