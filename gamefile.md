@@ -189,7 +189,7 @@ class:roundedCorners
 name:Basic Cat
 desc:<i>"A basic cat, not much"</i></></><b>Effects and Stuff:</><.>Mouse produces double</b>
 icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/click1
-passive:multiply cat yield of catButton by 2
+passive:multiply cats yield of catButton by 2
 cost:100 cats
 req:1 featherBuilding
 class:roundedCorners
