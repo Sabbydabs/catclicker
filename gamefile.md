@@ -7,7 +7,7 @@ desc:Desc here
 Settings
 stylesheet:https://pastebin.com/raw/TckyP96A		
 background:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/blackBG2		
-building cost increase:120%														
+building cost increase:125%														
 
 Layout
 *main
