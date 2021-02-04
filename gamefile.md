@@ -48,6 +48,7 @@ Resources
 *cats
 name:Cats
 desc:These are cats, use them to buy stuff!!
+icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/click1
 class:roundedCorners
 
 *cps1
@@ -186,11 +187,20 @@ req:10 meetupBuilding
 class:roundedCorners
 
 *click1
-name:Basic Cat
+name:Basic Cats
 desc:<i>"A basic cat, not much"</i></></><b>Effects and Stuff:</><.>Doubles the yield of the big cat</b>
 icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/click1
 passive:multiply cats yield of catButton by 2
 cost:100 cats
 req:1 featherBuilding
+class:roundedCorners
+
+*click2
+name:Purple Cats
+desc<i>"Now this is just ridiculous! A purple cat? The creator is running out of ideas ALREADY?!?? Geez so uncreative..."</i></></><b>Effects and Stuff:</><.>Doubles the yield of the big cat</b>
+icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/click2
+passive:multiply cats yield of catButton by 2
+cost:500
+req:15 featherBuilding
 class:roundedCorners
 
