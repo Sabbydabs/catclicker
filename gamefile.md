@@ -21,11 +21,11 @@ Layout
   contains:buildings, upgrades
   *buildings
     contains:BulkDisplay, Buildings
-    header:<b><t>Buildings</t></b>
+    header:<b><t>Store</t></b>
     tooltip origin:left
   *upgrades
     contains:Upgrades
-    header:<b><t>Unlockables</t></b>
+    header:<b><t>Upgrades</t></b>
     costs:hide
     names:hide    
   *ownedupgrades
