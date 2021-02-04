@@ -197,7 +197,7 @@ class:roundedCorners
 
 *click2
 name:Purple Cats
-desc<i>"Now this is just ridiculous! A purple cat? The creator is running out of ideas ALREADY?!?? Geez so uncreative..."</i></></><b>Effects and Stuff:</><.>Doubles the yield of the big cat</b>
+desc:<i>"Now this is just ridiculous! A purple cat? The creator is running out of ideas ALREADY?!?? Geez so uncreative..."</i></></><b>Effects and Stuff:</><.>Doubles the yield of the big cat</b>
 icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/click2
 passive:multiply cats yield of catButton by 2
 cost:500
