@@ -21,7 +21,7 @@ Layout
   contains:buildings, upgrades
   *buildings
     contains:BulkDisplay, Buildings
-    header:<b><t>Store</t></b>
+    header:<b><t>Buildings</t></b>
     tooltip origin:left
   *upgrades
     contains:Upgrades
