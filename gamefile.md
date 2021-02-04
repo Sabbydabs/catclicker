@@ -27,6 +27,11 @@ Layout
     contains:Upgrades
     header:<b><t>Unlockables</t></b>
     costs:hide
+    names:hide    
+  *ownedupgrades
+    contains:tag:owned
+    header:<b><t>Owned Upgrades</t></b>
+    costs:hide
     names:hide
 
 Buttons
@@ -178,3 +183,11 @@ icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/humanSlaves
 cost:15 meetupBuilding
 req:10 meetupBuilding
 class:roundedCorners
+
+*click1
+name:Basic Cat
+desc:<i>"A basic cat, not much"</i></></><b>Effects and Stuff:</><.>Mouse produces double</b>
+icon:
+cost:100 cats
+req:1 featherBuilding
+
