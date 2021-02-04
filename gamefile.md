@@ -31,6 +31,7 @@ Layout
   *ownedupgrades
     contains:tag:owned
     header:<b><t>Owned Upgrades</t></b>
+    in:upgrades
     costs:hide
     names:hide
 
