@@ -91,7 +91,7 @@ Buildings
 /*Boxes, Towers, Parasites, Humans, Islands, Planets, Portals, Dimensions - Credit TrueWolves*/
 *featherBuilding
 name:Feathered Wands
-desc:<i>"Eyes on target, preparing for attack "</i></></><b>Stats and Stuff:</><.>Each wand is producing <#33ff00>[floor(cats)].[(cats*pow(10,N))%pow(10,N)] cats</#> cats per second</><.>Playing with cats heightens agility and speed</b>
+desc:<i>"Eyes on target, preparing for attack "</i></></><b>Stats and Stuff:</><.>Each wand is producing <#33ff00>[cps1:ps]</#> cats per second</><.>Playing with cats heightens agility and speed</b>
 icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/featheredWands
 on tick:yield 0.1 cats 
 on tick:yield 0.1 cps1
