@@ -18,11 +18,13 @@ Layout
   *buttons
     contains:Buttons
 *store
-  contains:buildings, upgrades
+  contains:buildings
   *buildings
     contains:BulkDisplay, Buildings
     header:<b><t>Buildings</t></b>
     tooltip origin:left
+*store2
+  contains:upgrades
   *upgrades
     contains:Upgrades
     header:<b><t>Upgrades</t></b>
