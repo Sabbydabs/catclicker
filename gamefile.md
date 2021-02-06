@@ -49,6 +49,7 @@ Resources
 name:Cats
 desc:These are cats, use them to buy stuff!!
 icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/click1
+class:resCSS
 
 *cps1
 name:cps
