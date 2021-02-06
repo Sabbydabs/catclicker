@@ -14,7 +14,7 @@ Layout
   contains:res, buttons
   *res
     contains:Resources
-    class:fullWidth resPosition
+    class:resPosition fullWidth
   *buttons
     contains:Buttons
 *store
@@ -34,6 +34,7 @@ Layout
     in:upgrades
     costs:hide
     names:hide
+	class:ownedUpgrades
 
 Buttons
 *catButton
