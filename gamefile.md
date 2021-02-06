@@ -7,7 +7,7 @@ desc:Desc here
 Settings
 stylesheet:https://pastebin.com/raw/TckyP96A		
 background:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/blackBG2		
-building cost increase:120%														
+building cost increase:125%														
 
 Layout
 *main
@@ -42,6 +42,7 @@ name:Big Cat
 icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/catButton
 desc:Click this button to produce more cats
 on click:yield 1 cats
+on click:if (have click2) yield 1 purpleCat
 no text
 class:bigButton
 
@@ -51,6 +52,9 @@ name:Cats
 desc:These are cats, use them to buy stuff!!
 icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/click1
 class:resPosition
+
+*purpleCat
+hidden
 
 *cps1
 name:cps
@@ -187,11 +191,22 @@ cost:15 meetupBuilding
 req:10 meetupBuilding
 class:roundedCorners
 
+/*button Upgrades
+**Tempelate:**
+*click
+desc:<i>""</i></></><b>Effects and Stuff:</><.>Doubles the yield of the big cat</b>
+icon:
+passive:multiply yield of catButton by 2
+cost:
+req:
+class:roundedCorners
+*/
+
 *click1
 name:Basic Cats
 desc:<i>"A basic cat, not much"</i></></><b>Effects and Stuff:</><.>Doubles the yield of the big cat</b>
 icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/click1
-passive:multiply cats yield of catButton by 2
+passive:multiply yield of catButton by 2
 cost:100 cats
 req:1 catButton:clicks
 class:roundedCorners
@@ -200,7 +215,7 @@ class:roundedCorners
 name:Purple Cats
 desc:<i>"Now this is just ridiculous! A purple cat? The creator is running out of ideas ALREADY?!?? Geez, so uncreative..."</i></></><b>Effects and Stuff:</><.>Doubles the yield of the big cat</b>
 icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/click2
-passive:multiply cats yield of catButton by 2
+passive:multiply yield of catButton by 2
 cost:500 cats
 req:100 catButton:clicks
 class:roundedCorners
