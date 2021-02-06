@@ -18,7 +18,7 @@ Layout
   *buttons
     contains:Buttons
 *store
-  contains:buildings
+  contains:buildings,upgrades
   *buildings
     contains:BulkDisplay, Buildings
     header:<b><t>Buildings</t></b>
