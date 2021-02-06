@@ -18,13 +18,11 @@ Layout
   *buttons
     contains:Buttons
 *store
-  contains:buildings,upgrades
+  contains:buildings, upgrades
   *buildings
     contains:BulkDisplay, Buildings
     header:<b><t>Buildings</t></b>
     tooltip origin:left
-*store2
-  contains:upgrades
   *upgrades
     contains:Upgrades
     header:<b><t>Upgrades</t></b>
@@ -205,6 +203,3 @@ passive:multiply cats yield of catButton by 2
 cost:500 cats
 req:100 catButton:clicks
 class:roundedCorners
-
-
-
