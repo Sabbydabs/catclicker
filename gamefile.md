@@ -54,6 +54,7 @@ icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/click1
 class:resPosition
 
 *purpleCat
+icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/click2
 hidden
 
 *cps1
