@@ -24,6 +24,11 @@ Layout
     contains:BulkDisplay, Buildings
     header:<b><t>Buildings</t></b>
     tooltip origin:left
+  *ownedachievs
+	contains:Achievements
+	header:<b><t>Achievements</t></b>
+	costs:hide
+	names:hide
   *upgrades
     contains:Upgrades
     header:<b><t>Upgrades</t></b>
@@ -35,10 +40,7 @@ Layout
     costs:hide
     names:hide
 	class:ownedUpgrades
-  *ownedachievs
-	contains:Achievements
-	header:<b><t>Achievements</t></b>
- 
+	
 *log
     contains:Log
     class:bottom
@@ -466,3 +468,10 @@ req:
 
 
 */
+
+Achievements
+*testAchiev
+name:Test
+desc:test
+req:1 cats
+icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/click1
