@@ -1,4 +1,4 @@
-/*Purrfect Clicker*/
+/*Purrfect Clicker - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /*https://www.desmos.com/calculator/eun6ycoojl*/
 Let's make a game!
 name:PurrfectClicker
@@ -19,7 +19,7 @@ Layout
   *buttons
     contains:Buttons
 *store
-  contains:buildings, upgrades
+  contains:buildings, upgrades, ownedupgrades, ownedachievs
   *buildings
     contains:BulkDisplay, Buildings
     header:<b><t>Buildings</t></b>
@@ -32,10 +32,12 @@ Layout
   *ownedupgrades
     contains:tag:owned
     header:<b><t>Owned Upgrades</t></b>
-    in:upgrades
     costs:hide
     names:hide
 	class:ownedUpgrades
+  *ownedachievs
+	contains:Achievements
+	header:<b><t>Achievements</t></b>
  
 *log
     contains:Log
@@ -145,6 +147,7 @@ icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/featheredWands
 on tick:yield 0.1 cats 
 on tick:yield 0.1 cps1
 cost:15 cats
+
  
 *boxesBuilding
 name:Boxes
@@ -155,6 +158,7 @@ on tick:yield 0.5 cps2
 cost:100 cats
 req:100 cats:earned
 req:10 featherBuilding
+
  
 *postBuilding
 name:Scratching Posts
@@ -165,6 +169,7 @@ on tick:yield 5 cps3
 cost:600 cats
 req:600 cats:earned
 req:10 boxesBuilding
+
  
 *treeBuilding
 name:Trees
@@ -175,6 +180,7 @@ on tick:yield 12 cps4
 cost:4000 cats
 req:4000 cats:earned
 req:10 postBuilding
+
  
 *meetupBuilding
 name:Meetups
@@ -185,6 +191,7 @@ on tick:yield 90 cps5
 cost:20000 cats
 req:20000 cats:earned 
 req:10 treeBuilding
+
  
 *humanBuilding
 name:Humans
@@ -195,6 +202,7 @@ on tick:yield 300 cps6
 cost:200000 cats
 req:200000 cats:earned and parasiteUpgrade
 req:15 meetupBuilding 
+
  
 *islandBuilding
 name:Islands
@@ -205,6 +213,7 @@ on tick:yield 1000 cps7
 cost:3000000 cats
 req:3000000 cats:earned and parasiteUpgrade
 req:15 humanBuilding
+
  
 *planetBuilding
 name:Planets
@@ -215,6 +224,7 @@ on tick:yield 4000 cps8
 cost:70000000 cats
 req:70000000 cats:earned and parasiteUpgrade
 req:15 islandBuilding
+
  
 *dimensionBuilding
 name:Dimensions
@@ -225,6 +235,7 @@ on tick:yield 8000 cps9
 cost:300000000 cats
 req:300000000 cats:earned and parasiteUpgrade
 req:15 planetBuilding
+
  
 Upgrades
 *parasiteUpgrade
@@ -235,7 +246,7 @@ cost:15 meetupBuilding
 req:10 meetupBuilding
 class:roundedCorners
  
-/*button Upgrades
+/*button Upgrades - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 **Tempelate:**
 *click
 name:
@@ -335,7 +346,8 @@ cost:1000000 cats
 req:1 click8
 req:500000 cats:earned
 class:roundedCorners
- 
+
+*click10 
 name:Recycling Cats
 desc:<i>"Reduce, Re-use, Recycle is there motto, and it should be yours too! ;)"</i></></><b>Effects and Stuff:</><.>Increases the yield of the big cat by 2</b>
 icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/click10
@@ -344,4 +356,113 @@ cost:10000000 cats
 req:1000000 cats:earned
 class:roundedCorners
  
-/*building upgrades*/
+/*building upgrades - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+/*
+*buildingUpgrade1
+name:Sparkles
+desc:<i>"Oooh, Sparkly!"</i></></><b>Effects and Stuff:</><.>Duplicates the production of feathered wands, boxes and scratching posts</b>
+icon:
+cost:1000 cats
+passive:multiply yield of featherBuilding by 2
+passive:multiply yield of boxesBuilding by 2
+passive:multiply yield of postBuilding by 2
+req:(featherBuilding>=10 or boxesBuilding>=10 or postBuilding>=10)
+
+*buildingUpgrade2
+name:Scents
+desc:<i>"The scent of this toy is delicious"</i></></><b>Effects and Stuff:</><.>Duplicates the production of feathered wands, boxes and screathing posts</b>
+icon:
+cost:100000 cats
+passive:multiply yield of featherBuilding by 2
+passive:multiply yield of boxesBuilding by 2
+passive:multiply yield of postBuilding by 2
+req:(featherBuilding>=50 or boxesBuilding>=50 or postBuilding>=50)
+
+*buildingUpgrade3
+name:Quality Material
+desc:<i>"Quality material, forever and ever"</i></></><b>Effects and Stuff:</><.>Duplicates the production of feathered wands, boxes and scratching posts</b>
+icon:
+cost:5000000 cats
+passive:multiply yield of featherBuilding by 2
+passive:multiply yield of boxesBuilding by 2
+passive:multiply yield of postBuilding by 2
+req:(featherBuilding>=100 or boxesBuilding>=100 or postBuilding>=100)
+
+*buildingUpgrade4
+name:Better Hiding Spots
+desc:<i>"These hiding sport are wickedly rad!"</i></></><b>Effects and Stuff:</><.>Duplicates the production of trees and meetups</b>
+icon:
+cost:50000 cats
+passive:multiply yield of treeBuilding by 2
+passive:multiply yield of meetupBuilding by 2
+req:(treeBuilding>=10 or meetupBuilding>=10)
+
+*buildingUpgrade5
+name:Taller Trees
+desc:<i>"These taller trees will help us keep our meetings more secret"</i></></><b>Effects and Stuff:</><.>Duplicates the production of trees and meetups</b>
+icon:
+cost:5000000 bunnies
+passive:multiply yield of treeBuilding by 2
+passive:multiply yield of meetupBuilding by 2
+req:(treeBuilding>=50 or meetupBuiliding>=50)
+
+*buildingUpgrade6
+name:Better Boats
+desc:<i>"To ensure the health of humans we need to create better boats! Sick humans won't work!"</i></></><b>Effects and Stuff:</><.>Duplicates the production of humans and islands</b>
+icon:
+cost:1000000 cats
+passive:multiply yield of humanBuilding by 2
+passive:multiply yield of islandBuilding by 2
+req:(humanBuilding>=10 or islandBuilding>=10)
+
+*buildingUpgrade7
+name:Human Food
+desc:<i>"Most, have noticed that humans don't like cat food, so we shall prepare them filthy human food instead"</i></></><b>Effects and Stuff:</><.>Duplicates the production of humans and islands</b>
+icon:
+cost:500000000 cats
+passive:multiply yield of humanBuilding by 2
+passive:multiply yield of islandBuilding by 2
+req:(humanBuilding>=50 or islandBuilding>=50)
+
+*buildingUpgrade8
+name:Enhanced Spaceships
+desc:<i>"In order to ensure the safety of cats and slaves we need to enhance the rusty, old and cheap human spaceships"</i></></><b>Effects and Stuff:</><.>Duplicates the production of </b>
+icon:
+cost:1000000000 cats
+passive:multiply yield of planetBuilding by 2
+passive:multiply yield of dimensionBuilding by 2
+req:(planetBuidling>=10 or dimensionBuilding>=10)
+
+/*
+*buildingUpgrade
+name:
+desc:<i>""</i></></><b>Effects and Stuff:</><.>Duplicates the production of </b>
+icon:
+cost:
+passive:
+passive:
+passive:
+req:
+
+*buildingUpgrade
+name:
+desc:<i>""</i></></><b>Effects and Stuff:</><.>Duplicates the production of </b>
+icon:
+cost:
+passive:
+passive:
+passive:
+req:
+
+*buildingUpgrade
+name:
+desc:<i>""</i></></><b>Effects and Stuff:</><.>Duplicates the production of </b>
+icon:
+cost:
+passive:
+passive:
+passive:
+req:
+
+
+*/
