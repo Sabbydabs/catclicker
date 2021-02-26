@@ -64,6 +64,13 @@ class:bigButton
 on load:log <t><u>Change-Log</u></t><//></><t>Random Something #1<//><.>I really don't know how I am physicaly tired by just setting this log up...<.>Game still in beta
  
 on start:log <t><u>Change-Log</u></t><//></><t>Random Something #1<//><.>I really don't know how I am physicaly tired by just setting this log up...<.>Game still in beta
+
+*gameTitle
+icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/Catastrophik
+on click:anim icon wobble
+class:gameTitle
+icon class:titleIcon
+no text
  
 Resources
 *cats
@@ -240,6 +247,11 @@ req:15 planetBuilding
 
  
 Upgrades
+*TEMPLATE
+class:roundedCorners
+
+/*----------------------------------------------------------------------------------------------------------*/
+
 *parasiteUpgrade
 name:Sinister Plans
 desc:<i>"We, felines, can now control toxoplasama gondii and are able to enhance it to become greater than it has ever been. They domesticated us and even wanted to turn us into combine us with themselves. WE WILL NOT TOLERATE MORE! Rise my brothers and sisters! RISE!"</i></></><b>Effects and Stuff:</><.>Unlocks more buildings!</><.>T-gondii is a parasite found in cat feces</b>
@@ -267,7 +279,6 @@ icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/click1
 passive:increase yield of catButton by 1
 cost:100 cats
 req:1 cats:earned
-class:roundedCorners
  
 *click2
 name:Purple Cats
@@ -277,7 +288,6 @@ passive:increase yield of catButton by 1
 cost:200 cats
 req:50 cats:earned
 req:1 click1
-class:roundedCorners
  
 *click3
 name:Jade Cats
@@ -287,7 +297,6 @@ passive:increase yield of catButton by 2
 cost:400 cats
 req:1 click2
 req:200 cats:earned
-class:roundedCorners
  
 *click4
 name:Auric Cats
@@ -297,7 +306,6 @@ passive:increase yield of catButton by 2
 cost:3000 cats
 req:1 click3
 req:1000 cats:earned
-class:roundedCorners
  
 *click5
 name:Scarlet Cats
@@ -307,7 +315,6 @@ passive:increase yield of catButton by 2
 cost:10000 cats
 req:1 click4
 req:1000 cats:earned
-class:roundedCorners
  
 *click6
 name:Earthly Cats
@@ -317,7 +324,6 @@ passive:increase yield of catButton by 2
 cost:50000 cats
 req:1 click5
 req:10000 cats:earned
-class:roundedCorners
  
 *click7
 name:Violaceous Cats
@@ -327,7 +333,6 @@ passive:increase yield of catButton by 2
 cost:100000 cats
 req:1 click6
 req:50000 cats:earned
-class:roundedCorners
  
 *click8
 name:Ivy Cats
@@ -337,7 +342,6 @@ passive:increase yield of catButton by 2
 cost:500000 cats
 req:1 click7
 req:100000 cats:earned
-class:roundedCorners
  
 *click9
 name:Citric Cat
@@ -347,7 +351,6 @@ passive:increase yield of catButton by 2
 cost:1000000 cats
 req:1 click8
 req:500000 cats:earned
-class:roundedCorners
 
 *click10 
 name:Recycling Cats
@@ -356,7 +359,6 @@ icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/click10
 passive:increase yield of catButton by 2
 cost:10000000 cats
 req:1000000 cats:earned
-class:roundedCorners
  
 /*building upgrades - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
 /*
@@ -470,6 +472,10 @@ req:
 */
 
 Achievements
+*TEMPLATE
+class:roundedCorners
+/*----------------------------------------------------------------------------------------------------------*/
+
 *testAchiev
 name:Test
 desc:test
