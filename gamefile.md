@@ -1,7 +1,7 @@
 /*Purrfect Clicker - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /*https://www.desmos.com/calculator/eun6ycoojl*/
 Let's make a game!
-name:PurrfectClicker
+name:Catastrophik
 by:SabbathIsNotADev
 desc:Desc here
  
@@ -71,7 +71,16 @@ on click:anim icon wobble
 class:gameTitle
 icon class:titleIcon
 no text
- 
+no tooltip
+
+*creditsCat
+icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/creditsCat
+class:creditsCat meta-button
+icon class:creditsIcon
+no text
+name:Credits
+desc:Nothing, game still unfinished...
+
 Resources
 *cats
 name:Cats
