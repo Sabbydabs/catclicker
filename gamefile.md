@@ -46,6 +46,12 @@ Layout
     class:bottom
  
 Buttons
+*gameLog
+hidden
+on load:log </></><t><u>Updates & Dev-Logs:</u></t><//></><t>Dev-Log #2<//><.>The game is now called "Catastrophik<.>Thinking of changing the position of the log<.>Changed the position of the info, credits and settings button<.>Placed title where it need to be<.>Pastebin actually <b>deleted</b> my game, for no reason. Good thing I have a backup ;)<.>Game still in beta<//></><t>Dev-Log #1<//><.>I really don't know how I am physicaly tired by just setting this log up...<.>Game still in beta
+ 
+on start:log </></><t><u>Updates & Dev-Logs:</u></t><//></><t>Dev-Log #2<//><.>The game is now called "Catastrophik<.>Thinking of changing the position of the log<.>Changed the position of the info, credits and settings button<.>Placed title where it need to be<.>Pastebin actually <b>deleted</b> my game, for no reason. Good thing I have a backup ;)<.>Game still in beta<//></><t>Dev-Log #1<//><.>I really don't know how I am physicaly tired by just setting this log up...<.>Game still in beta
+
 *catButton
 name:Big Cat
 icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/catButton
@@ -61,9 +67,6 @@ on click:if (have click8) yield 1 cat8
 on click:if (have click9) yield 1 cat9
 no text
 class:bigButton
-on load:log <t><u>Change-Log</u></t><//></><t>Random Something #1<//><.>I really don't know how I am physicaly tired by just setting this log up...<.>Game still in beta
- 
-on start:log <t><u>Change-Log</u></t><//></><t>Random Something #1<//><.>I really don't know how I am physicaly tired by just setting this log up...<.>Game still in beta
 
 *gameTitle
 icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/Catastrophik
@@ -202,7 +205,7 @@ req:10 postBuilding
  
 *meetupBuilding
 name:Meetups
-desc:</><i>"Cat 1: Hey! Whats up bro?</>Cat 2: Nothing much bro, just hanging around</>Cat 1: Cool, well here is the plan..."</i></></><b>Stats and Stuff:</><.>Each meetup is producing <#33ff00>[cps5:ps]</#> cats per second</><.>Cats, much the americans in coffeehouses, will plan their rebellion from the humans when they meet up with other cats</b>
+desc:</><i>"Cat 1: Hey! Whats up bro?</>Cat 2: Nothing much bro, just hanging around</>Cat 1: Cool, well here is the plan..."</i></></><b>Stats and Stuff:</><.>Each meetup is producing <#33ff00>[cps5:ps]</#> cats per second</><.>Cats, they love to meetup with their friends! But not because of the reason you're thinking of...</b>
 icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/catMeetups
 on tick:yield 90 cats 
 on tick:yield 90 cps5
@@ -213,7 +216,7 @@ req:10 treeBuilding
  
 *humanBuilding
 name:Humans
-desc:<i>"BREAKING NEWS: Cats have taken over the world government, we are all fucked..."</i></></><b>Stats and Stuff:</><.>Each human is producing <#33ff00>[cps6:ps]</#> cats per second</><.>Cats will often times take control over t-gondii to accert dominance over their human</b>
+desc:<i>"BREAKING NEWS: Cats have taken over the world government, we are all fucked..."</i></></><b>Stats and Stuff:</><.>Each human is producing <#33ff00>[cps6:ps]</#> cats per second</><.>Cats have outsmarted humans in this parallel universe!</b>
 icon:https://pipe.miroware.io/5f91b0d7e6bde66c95ca308c/humanSlaves
 on tick:yield 300 cats 
 on tick:yield 300 cps6
