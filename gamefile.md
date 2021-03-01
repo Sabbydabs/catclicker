@@ -22,7 +22,7 @@ Layout
   contains:buildings, upgrades, ownedupgrades, ownedachievs
   *buildings
     contains:BulkDisplay, Buildings
-    header:<b><t>Buildings</t></b>
+    header:<b><t>Cat Toys</t></b>
     tooltip origin:left
   *ownedachievs
 	contains:Achievements
